@@ -1,6 +1,6 @@
 array = ["Tim Jones", "Tom Smith", "Jim Campagno"]
 
-def my_collect(array)
+def my_collect(students)
   i = 0
   collection = []
   while i < array.length
