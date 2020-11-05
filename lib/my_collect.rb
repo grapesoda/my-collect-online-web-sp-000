@@ -3,7 +3,7 @@ array = ["Tim Jones", "Tom Smith", "Jim Campagno"]
 def my_collect(students)
   i = 0
   collection = []
-  while i < array.length
+  while i < students.length
     collection << yield(array[i])
     i += 1
   end
