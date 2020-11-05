@@ -1,9 +1,9 @@
 array = ["Tim Jones", "Tom Smith", "Jim Campagno"]
 
-def my_collect(students)
+def my_collect(array)
   i = 0
   collection = []
-  while i < students.length
+  while i < array.length
     collection << yield(array[i])
     i += 1
   end
